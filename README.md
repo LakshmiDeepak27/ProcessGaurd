@@ -346,13 +346,5 @@ cd backend && npm test
 
 ---
 
-## 16. Interview Explanation (Quick Pitch)
-
-> *"ProcessGuard is a system process monitoring and anomaly detection platform engineered with a C++17 core, an Express REST API, and a React dashboard. Unlike standard task managers that only show fleeting real-time numbers, ProcessGuard analyzes sustained resource consumption over consecutive time intervals—such as detecting when a rogue process consumes over 90% CPU across 3 consecutive evaluation cycles.*  
->
-> *Architecturally, the C++ engine uses abstract Monitor interfaces, composition, and priority queues for $O(N \log K)$ top-consumer extraction from `/proc`. Telemetry is output as structured JSON, persisted to an indexed SQLite database by Node.js, and visualized through a custom dark-espresso React dashboard. The entire application is containerized with a multi-stage Docker build for seamless deployment to Render."*
-
----
-
 ## 17. License
 Distributed under the MIT License.
