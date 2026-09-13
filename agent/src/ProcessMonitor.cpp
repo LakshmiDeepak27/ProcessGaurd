@@ -1,6 +1,7 @@
 #include "ProcessMonitor.hpp"
 #include <algorithm>
 #include <queue>
+#include <cctype>
 
 namespace processguard {
 
@@ -99,11 +100,13 @@ std::vector<Process> ProcessMonitor::searchByName(const std::string& query) cons
     if (query.empty()) return m_processes;
 
     std::string lowerQuery = query;
-    std::transform(lowerQuery.begin(), lowerQuery.end(), lowerQuery.begin(), ::tolower);
+    std::transform(lowerQuery.begin(), lowerQuery.end(), lowerQuery.begin(),
+                   [](unsigned char c) { return static_cast<char>(std::tolower(c)); });
 
     for (const auto& proc : m_processes) {
         std::string lowerName = proc.getName();
-        std::transform(lowerName.begin(), lowerName.end(), lowerName.begin(), ::tolower);
+        std::transform(lowerName.begin(), lowerName.end(), lowerName.begin(),
+                       [](unsigned char c) { return static_cast<char>(std::tolower(c)); });
         if (lowerName.find(lowerQuery) != std::string::npos) {
             matches.push_back(proc);
         }

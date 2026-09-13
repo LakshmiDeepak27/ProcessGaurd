@@ -223,6 +223,7 @@ std::vector<ProcessProcData> SystemProbe::readAllProcesses(const std::string& pr
 #endif
 
 #if defined(_WIN32) || defined(_WIN64)
+    (void)procDir;
     HANDLE snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
     if (snapshot != INVALID_HANDLE_VALUE) {
         PROCESSENTRY32W pe;

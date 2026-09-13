@@ -8,8 +8,17 @@ namespace processguard {
 static std::string getCurrentIsoTimestamp() {
     auto now = std::chrono::system_clock::now();
     auto in_time_t = std::chrono::system_clock::to_time_t(now);
+    std::tm tm_buf{};
+#if defined(_MSC_VER)
+    gmtime_s(&tm_buf, &in_time_t);
+#elif defined(_POSIX_THREAD_SAFE_FUNCTIONS) || defined(__linux__)
+    gmtime_r(&in_time_t, &tm_buf);
+#else
+    std::tm* t = std::gmtime(&in_time_t);
+    if (t) tm_buf = *t;
+#endif
     std::stringstream ss;
-    ss << std::put_time(std::gmtime(&in_time_t), "%Y-%m-%dT%H:%M:%SZ");
+    ss << std::put_time(&tm_buf, "%Y-%m-%dT%H:%M:%SZ");
     return ss.str();
 }
 
