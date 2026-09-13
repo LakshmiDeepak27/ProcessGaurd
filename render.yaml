@@ -18,7 +18,3 @@ services:
         value: 350
       - key: DB_PATH
         value: /app/data/processguard.sqlite
-    disk:
-      name: processguard-sqlite-storage
-      mountPath: /app/data
-      sizeGB: 1
