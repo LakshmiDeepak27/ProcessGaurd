@@ -1,0 +1,13 @@
+node_modules
+dist
+build
+bin
+.git
+.gitignore
+*.sqlite
+*.sqlite3
+*.db
+npm-debug.log
+.DS_Store
+.vscode
+.idea

@@ -1,0 +1,17 @@
+{
+  "name": "processguard-backend",
+  "version": "1.0.0",
+  "description": "ProcessGuard Backend API & Telemetry Persistence Service",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/tests/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}

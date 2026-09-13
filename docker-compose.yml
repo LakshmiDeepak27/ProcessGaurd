@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  processguard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: processguard-app
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - POLL_INTERVAL_MS=5000
+      - SAMPLING_INTERVAL_MS=350
+    volumes:
+      - processguard-data:/app/data
+    # Bind mount Linux host /proc if deploying directly on Linux host for host metrics
+    # volumes:
+    #   - /proc:/host/proc:ro
+
+volumes:
+  processguard-data:
+    driver: local

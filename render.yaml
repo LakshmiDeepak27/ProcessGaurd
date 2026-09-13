@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: processguard
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: POLL_INTERVAL_MS
+        value: 5000
+      - key: SAMPLING_INTERVAL_MS
+        value: 350
+      - key: DB_PATH
+        value: /app/data/processguard.sqlite
+    disk:
+      name: processguard-sqlite-storage
+      mountPath: /app/data
+      sizeGB: 1
