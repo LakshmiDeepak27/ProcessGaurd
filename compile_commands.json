@@ -1,0 +1,62 @@
+[
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_core.dir\\src\\SystemProbe.cpp.obj -c E:\\Cpp\\agent\\src\\SystemProbe.cpp",
+  "file": "E:\\Cpp\\agent\\src\\SystemProbe.cpp",
+  "output": "CMakeFiles\\processguard_core.dir\\src\\SystemProbe.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_core.dir\\src\\CpuMonitor.cpp.obj -c E:\\Cpp\\agent\\src\\CpuMonitor.cpp",
+  "file": "E:\\Cpp\\agent\\src\\CpuMonitor.cpp",
+  "output": "CMakeFiles\\processguard_core.dir\\src\\CpuMonitor.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_core.dir\\src\\MemoryMonitor.cpp.obj -c E:\\Cpp\\agent\\src\\MemoryMonitor.cpp",
+  "file": "E:\\Cpp\\agent\\src\\MemoryMonitor.cpp",
+  "output": "CMakeFiles\\processguard_core.dir\\src\\MemoryMonitor.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_core.dir\\src\\ProcessMonitor.cpp.obj -c E:\\Cpp\\agent\\src\\ProcessMonitor.cpp",
+  "file": "E:\\Cpp\\agent\\src\\ProcessMonitor.cpp",
+  "output": "CMakeFiles\\processguard_core.dir\\src\\ProcessMonitor.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_core.dir\\src\\SystemMonitor.cpp.obj -c E:\\Cpp\\agent\\src\\SystemMonitor.cpp",
+  "file": "E:\\Cpp\\agent\\src\\SystemMonitor.cpp",
+  "output": "CMakeFiles\\processguard_core.dir\\src\\SystemMonitor.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_core.dir\\src\\ProcessAnalyzer.cpp.obj -c E:\\Cpp\\agent\\src\\ProcessAnalyzer.cpp",
+  "file": "E:\\Cpp\\agent\\src\\ProcessAnalyzer.cpp",
+  "output": "CMakeFiles\\processguard_core.dir\\src\\ProcessAnalyzer.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_core.dir\\src\\AlertManager.cpp.obj -c E:\\Cpp\\agent\\src\\AlertManager.cpp",
+  "file": "E:\\Cpp\\agent\\src\\AlertManager.cpp",
+  "output": "CMakeFiles\\processguard_core.dir\\src\\AlertManager.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\ProcessGuard.dir\\src\\main.cpp.obj -c E:\\Cpp\\agent\\src\\main.cpp",
+  "file": "E:\\Cpp\\agent\\src\\main.cpp",
+  "output": "CMakeFiles\\ProcessGuard.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\processguard_engine.dir\\src\\main.cpp.obj -c E:\\Cpp\\agent\\src\\main.cpp",
+  "file": "E:\\Cpp\\agent\\src\\main.cpp",
+  "output": "CMakeFiles\\processguard_engine.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "E:/Cpp/agent/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IE:/Cpp/agent/include -O0 -g -Xclang -gcodeview -std=c++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o tests\\CMakeFiles\\engine_tests.dir\\test_main.cpp.obj -c E:\\Cpp\\agent\\tests\\test_main.cpp",
+  "file": "E:\\Cpp\\agent\\tests\\test_main.cpp",
+  "output": "tests\\CMakeFiles\\engine_tests.dir\\test_main.cpp.obj"
+}
+]

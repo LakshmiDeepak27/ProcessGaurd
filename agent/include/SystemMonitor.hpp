@@ -5,6 +5,7 @@
 #include "MemoryMonitor.hpp"
 #include "ProcessMonitor.hpp"
 #include "Snapshots.hpp"
+#include "SystemProbe.hpp"
 #include <memory>
 
 namespace processguard {

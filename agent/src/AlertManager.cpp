@@ -1,5 +1,4 @@
 #include "AlertManager.hpp"
-#include <sstream>
 
 namespace processguard {
 

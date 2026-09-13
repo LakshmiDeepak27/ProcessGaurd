@@ -1,5 +1,4 @@
 #include "CpuMonitor.hpp"
-#include <algorithm>
 
 namespace processguard {
 

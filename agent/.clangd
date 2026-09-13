@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Iinclude
+    - -D_WIN32_WINNT=0x0600
+    - -DWIN32_LEAN_AND_MEAN
+  CompilationDatabase: build

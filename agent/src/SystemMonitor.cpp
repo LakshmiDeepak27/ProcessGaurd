@@ -1,5 +1,6 @@
 #include "SystemMonitor.hpp"
 #include <chrono>
+#include <ctime>
 #include <iomanip>
 #include <sstream>
 

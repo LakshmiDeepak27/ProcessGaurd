@@ -3,10 +3,13 @@
 #include "Monitor.hpp"
 #include "Process.hpp"
 #include "SystemProbe.hpp"
+#include <string>
 #include <vector>
 #include <unordered_map>
 #include <memory>
 #include <queue>
+#include <cstdint>
+#include <cstddef>
 
 namespace processguard {
 

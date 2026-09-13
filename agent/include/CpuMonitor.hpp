@@ -3,6 +3,7 @@
 #include "Monitor.hpp"
 #include "SystemProbe.hpp"
 #include <memory>
+#include <cstdint>
 
 namespace processguard {
 

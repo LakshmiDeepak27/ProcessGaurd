@@ -1,5 +1,4 @@
 #include "MemoryMonitor.hpp"
-#include <algorithm>
 
 namespace processguard {
 
